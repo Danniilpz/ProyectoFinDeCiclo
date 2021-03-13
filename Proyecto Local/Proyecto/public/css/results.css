@@ -1,0 +1,116 @@
+body{
+    padding-top:5px;
+}
+.resultado{
+    margin:20px 0;
+}
+.resultado>*{
+    border:0;
+    padding:0;
+    padding-left:0;
+}
+.resultado span{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+.alert-results{
+    padding-left:0;
+}
+.registroimagen{
+    float:left;
+    height: 200px;
+    background: white;
+    padding: 15px;
+}
+.registroimagen img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+#logo img{
+    width:30px;
+}
+#botonsubmit{
+    height:38px;
+    border-radius:0 .25rem .25rem 0;
+    width:84px;
+}
+#botonsubmit input{
+    width: 100%;
+    background: none;
+    border: none;
+    height: 100%;
+    outline:none;
+}
+.config{
+    background: none;
+    outline:none!important;
+    height: 38px;
+    background: white;
+    border: 1px solid #ced4da;
+    border-left-color: transparent;
+}
+.config img{
+    width:22px;
+    height: 22px;
+    margin: 7.8px 0px;
+}
+#buscador{
+    border-right-color:transparent;
+    border-radius:0;
+}
+#buscador:focus{
+    box-shadow: none;
+    border-color:#ced4da;
+    border-right:none;
+}
+#cargando{
+    width:20px;
+    height:20px;
+}
+.displaynone{
+    display:none;
+}
+.modal-header{
+    padding:0.5rem;
+}
+.interrogacion{
+    background-image: url(../images/interrogacion.png);
+    width: 16px;
+    height: 16px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+}
+#suggestions {
+    box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2);
+    height: auto;
+    position: absolute;
+    z-index: 9999;
+    width: calc(100% + 36px);
+}
+
+#suggestions a.suggest-element{
+    background-color: #FFFFFF;
+    border-top: 1px solid #d6d4d4;
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    float: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#suggestions .suggest-element:hover {
+    background-color: #e8e6e6;
+}
+#input{
+    padding:0;
+}
+.custom-control-label{
+    display:inline!important;
+}
+.clear{
+    clear:both;
+}
